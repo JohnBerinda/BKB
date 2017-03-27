@@ -1,3 +1,5 @@
-<main>
-  main page
+<main id="main">
+  <div class="about-company-wrapper">
+
+  </div>
 </main>
