@@ -1,0 +1,73 @@
+/* header style starts */
+
+#header .header-wrapper{
+  background-color: #242629;
+  position: relative;
+}
+
+#header .header-figure{
+  position: absolute;
+  left: 50%;
+  bottom: -64px;
+  transform: translateX(-50%);
+  display: inline-block;
+}
+
+#header .header-wrapper .back-img{
+  max-width: 100%;
+  display: block;
+}
+
+#header .header-figure .logo-wrapper{
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+  display: inline-block;
+}
+
+#header .header-content{
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 660px;
+  text-align: center;
+}
+
+#header .header-content-title{
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: "Yeseva One";
+}
+
+#header .header-content-content{
+  width: 565px;
+  margin: auto;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#header .header-content-details{
+  margin-top: 70px;
+}
+
+#header .header-content-details a{
+  color: #608fcc;
+  font-family: "Clear Sans";
+  text-decoration: none;
+  display: block;
+}
+
+#header .header-content-details a span{
+  display: inline-block;
+}
+
+#header .header-content-details .header-content-details-arrow{
+  margin-right: 40px;
+  transform: scale(2.5, 1.2);
+}
+/* header style ends */
