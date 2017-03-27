@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "YesevaOneRegular";
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot");
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.woff") format("woff"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ClearSans";
+    src: url("../fonts/ClearSans/ClearSans-Light.ttf");
+    url("../fonts/ClearSans/ClearSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Юредическая помощь*/
+
+.legal-assistance-wrapper {
+    background-image: url(../images/bkb_legal_it-background.png);
+    background-repeat: no-repeat;
+    background-position: -150px -200px ;
+
+
+}
+
+.legal-assistance-content{
+    padding: 160px 0 100px;
+    font-family: "ClearSans";
+}
+.legal-assistance-content h3 {
+    font-family: "YesevaOneRegular";
+}
+.legal-assistance-content p,.legal-assistance-content label {
+    max-width: 80%;
+    font-size: 16px;
+    color: #77797c;
+    font-weight: 500;
+
+}
+
+.legal-assistance-form-wrapper input[type=text]{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30px;
+    padding:20px;
+}
+.legal-assistance-form-wrapper textarea {
+    width: 100%;
+    max-width: 520px;
+    height: 150px;
+    resize: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+.legal-assistance-form-wrapper input[type=submit] {
+    float: right;
+    margin-right: 90px;
+}
+
+/*Юредическая помощь*/
