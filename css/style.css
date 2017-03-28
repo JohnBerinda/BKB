@@ -19,7 +19,7 @@
     font-weight: normal;
 }
 
-h3 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "YesevaOneRegular";
 }
 
@@ -126,6 +126,7 @@ label {
     -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
     -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
     box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+
 }
 .legal-team-content img,.legal-team-content label,.legal-team-content .info {
     width: 70%;
@@ -176,6 +177,46 @@ label {
     text-decoration: none;
 }
 /*Media Legal end*/
+
+
+
+
+/* Advisors start*/
+
+.advisors-wrapper {
+    background-image: url(../images/bkb_legal_it-background.png);
+    background-repeat: no-repeat;
+    background-position: -150px -200px;
+    background-size: auto auto;
+    padding: 100px 0 100px 0;
+    padding: 100px 0 80px;
+}
+.advisors-wrapper a {
+    display: block;
+    margin: 5px 0 10px 0;
+    text-decoration: none;
+}
+
+.advisors-team-content .four > img{
+    width: 90%;
+    -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+}
+
+.advisors-content-wrapper {
+    padding: 60px 0 60px 0;
+    background-color: #fafafa;
+}
+
+.advisors-team-content .info {
+    margin-bottom: 40px;
+}
+
+/* Advisors end*/
+
+
+
 
 /* header style starts */
 

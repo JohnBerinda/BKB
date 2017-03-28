@@ -1,7 +1,7 @@
 <div class="legal-team-wrapper">
     <div class="container">
         <div class="legal-team-content-wrapper">
-            <div class="legal-team-content ">
+            <div class="legal-team-content">
                 <div class="row">
                     <div class="four columns">
                         <img src="images/bkb-team.jpg" alt="bkb-team">
