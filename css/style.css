@@ -1,4 +1,6 @@
 
+
+
 @font-face {
     font-family: "YesevaOneRegular";
     src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot");
@@ -17,6 +19,20 @@
     font-weight: normal;
 }
 
+h3 {
+    font-family: "YesevaOneRegular";
+}
+
+p {
+    font-size: 16px;
+    font-family: "ClearSans";
+}
+
+label {
+    font-size: 15px;
+    font-family: "ClearSans";
+    color: #c2c4c9;
+}
 /*Юредическая помощь*/
 
 .legal-assistance-wrapper {
@@ -88,6 +104,57 @@
 
 
 /*Юредическая помощь*/
+
+
+
+
+/*Legal-Team-partial start*/
+.legal-team-wrapper {
+    background-image: url(../images/bkb_legal_it-background.png);
+    background-repeat: no-repeat;
+    background-position: -150px -200px;
+    background-size: auto auto;
+    padding: 100px 0 100px 0;
+}
+
+
+.legal-team-content img {
+    -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+}
+.legal-team-content img,.legal-team-content label,.legal-team-content .info {
+    width: 70%;
+    margin-left: 30%;
+}
+.legal-team-content .info {
+    margin-top: 20px;
+}
+.legal-team-content .info a img {
+    width: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.legal-team-content p {
+    max-width: 70%;
+}
+.legal-team-content label a {
+    text-decoration: none;
+    color: #608fcc;
+}
+
+.legal-team-content label span {
+    color: #5a5c60;
+}
+
+/*Legal-Team-partial end*/
+
+
+
+
+
+
 
 /* header style starts */
 
