@@ -23,7 +23,7 @@ h3 {
     font-family: "YesevaOneRegular";
 }
 
-p {
+p,a {
     font-size: 16px;
     font-family: "ClearSans";
 }
@@ -32,6 +32,10 @@ label {
     font-size: 15px;
     font-family: "ClearSans";
     color: #c2c4c9;
+}
+
+.text-center {
+    text-align: center;
 }
 /*Юредическая помощь*/
 
@@ -166,7 +170,11 @@ label {
     padding: 60px 0 60px 0;
     background-color: #fafafa;
 }
-
+.media-social-wrapper .social-links a{
+    display: block;
+    margin: 5px 0 5px 0;
+    text-decoration: none;
+}
 /*Media Legal end*/
 
 /* header style starts */

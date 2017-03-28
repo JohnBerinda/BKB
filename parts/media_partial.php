@@ -18,7 +18,7 @@
 <div class="media-social-wrapper">
     <div class="container">
         <div class="row">
-            <div class="three columns">
+            <div class="three columns text-center">
                 <script type="text/javascript" src="//vk.com/js/api/openapi.js?143"></script>
 
                 <!-- VK Widget -->
@@ -27,18 +27,18 @@
                     VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);
                 </script>
             </div>
-            <div class="three columns">
+            <div class="three columns text-center">
                 <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-height="150"
                      data-layout="box_count" data-size="large" data-show-faces="true"></div>
             </div>
-            <div class="three columns">
+            <div class="three columns text-center">
 
             </div>
-            <div class="three columns">
+            <div class="three columns text-center" >
                 <div class="social-links">
-                    <a href="#">YouTube</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Telegram</a>
+                    <a href="#"><span class="header-content-details-arrow">⟶</span><span>YouTube</span></a>
+                    <a href="#"><span class="header-content-details-arrow">⟶</span><span>Twitter</span></a>
+                    <a href="#"><span class="header-content-details-arrow">⟶</span><span>Telegram</span></a>
                 </div>
             </div>
         </div>
