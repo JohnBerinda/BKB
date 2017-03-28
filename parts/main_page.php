@@ -73,7 +73,19 @@
     <div class="container">
       <div class="row">
         <div class="one-third column">
-          1/3
+          <div class="card-element">
+            <div class="card-img-wrapper">
+              <img src="images/guy2.png" alt="">
+            </div>
+            <div class="card-title">
+              <span>Геннадий Белорицкий</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Партнёр, специализируется в международном праве, гражданском праве и процессе, ведёт активную общественную деятельность. Имеет статус адвоката в Украине, кандидат юридических наук.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="one-third column">
           1/3
