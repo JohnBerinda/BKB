@@ -15,13 +15,73 @@
         </div>
         <div class="five columns">
           <div class="company-news">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
+            <div class="company-news-title">
+              <span>Новости компании</span>
+            </div>
+            <div class="company-news-list">
+              <div class="company-news-item">
+                <div class="company-news-item-date">
+                  <div class="company-news-item-date-number">
+                    <span>12</span>
+                  </div>
+                  <div class="company-news-item-date-month">
+                    <span>feb</span>
+                  </div>
+                </div>
+                <div class="company-news-item-link">
+                  <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
+                </div>
+              </div>
+              <div class="company-news-item">
+                <div class="company-news-item-date">
+                  <div class="company-news-item-date-number">
+                    <span>31</span>
+                  </div>
+                  <div class="company-news-item-date-month">
+                    <span>may</span>
+                  </div>
+                </div>
+                <div class="company-news-item-link">
+                  <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
+                </div>
+              </div>
+              <div class="company-news-item">
+                <div class="company-news-item-date">
+                  <div class="company-news-item-date-number">
+                    <span>14</span>
+                  </div>
+                  <div class="company-news-item-date-month">
+                    <span>jun</span>
+                  </div>
+                </div>
+                <div class="company-news-item-link">
+                  <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
   <div class="our-team-wrapper">
-
+    <div class="our-team-block-title">
+      <h2>
+        <span>Наша команда</span>
+      </h2>
+      <div class="block-title-underline"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          1/3
+        </div>
+        <div class="one-third column">
+          1/3
+        </div>
+        <div class="one-third column">
+          1/3
+        </div>
+      </div>
+    </div>
   </div>
 </main>
