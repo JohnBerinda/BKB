@@ -28,8 +28,10 @@
                         Би»
                         была создана в 2010 году </p>
                 </div>
-                <div class="legal-assistance-form-wrapper ">
-                    <div class="one-half column u-pull-right">
+
+
+                <div class="one-half column u-pull-right">
+                    <div class="legal-assistance-form-wrapper ">
                         <h3>Заказать консультацию</h3>
                         <form action="">
                             <div class="row">
@@ -58,9 +60,13 @@
                                     <textarea onresize="none"></textarea>
                                 </div>
                             </div>
-                            <input type="submit">
+                            <label for="assistance-form">
+                                Отправить
+                                <input id="assistance-form" type="submit">
+                            </label>
                         </form>
                     </div>
+
                 </div>
             </div>
         </div>

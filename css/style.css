@@ -20,10 +20,10 @@
 /*Юредическая помощь*/
 
 .legal-assistance-wrapper {
-    background-image: url(../images/bkb_legal_it-background.png);
-    background-repeat: no-repeat;
-    background-position: -150px -200px ;
-
+    background-image: url(../images/bkb_legal_it-background.png),url(../images/Legal_assis_form-bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: -150px -200px, center right;
+    background-size: auto auto,50% 72%;
 
 }
 
@@ -49,17 +49,43 @@
     padding:20px;
 }
 .legal-assistance-form-wrapper textarea {
-    width: 100%;
+    width: 87%;
     max-width: 520px;
     height: 150px;
     resize: none;
     border-radius: 30px;
     padding: 20px;
 }
-.legal-assistance-form-wrapper input[type=submit] {
-    float: right;
-    margin-right: 90px;
+
+.legal-assistance-form-wrapper #assistance-form{
+    display: none;
 }
+.legal-assistance-form-wrapper {
+    padding: 40px 0 40px 40px;
+    position: relative;
+}
+
+.legal-assistance-form-wrapper form > label{
+    float: right;
+    margin-right: 70px;
+    color: #5e8bc5;
+    font-size: 16px;
+    position: relative;
+}
+.legal-assistance-form-wrapper form > label::before {
+    width: 19px;
+    height: 29px;
+    content: "";
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 16px;
+    right: 100px;
+    transform: scale(3.5, 1.2);
+    position: absolute;
+}
+
+
 
 /*Юредическая помощь*/
 
