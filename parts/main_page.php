@@ -75,6 +75,25 @@
         <div class="one-third column">
           <div class="card-element">
             <div class="card-img-wrapper">
+              <img src="images/bkb-team.jpg" alt="">
+            </div>
+            <div class="card-title">
+              <span>Константин Клайман</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Партнёр, специализируется в корпоративном и международном частном праве. Имеет статус адвоката в Израиле и США.
+              </p>
+            </div>
+            <div class="info">
+                <a href="#"><img src="images/social/fbblue.png" alt="socila"></a>
+                <a href="#"><img src="images/social/inblue.png" alt="socila"></a>
+            </div>
+          </div>
+        </div>
+        <div class="one-third column">
+          <div class="card-element">
+            <div class="card-img-wrapper">
               <img src="images/guy2.png" alt="">
             </div>
             <div class="card-title">
@@ -85,13 +104,30 @@
                 Партнёр, специализируется в международном праве, гражданском праве и процессе, ведёт активную общественную деятельность. Имеет статус адвоката в Украине, кандидат юридических наук.
               </p>
             </div>
+            <div class="info">
+                <a href="#"><img src="images/social/fbblue.png" alt="socila"></a>
+                <a href="#"><img src="images/social/inblue.png" alt="socila"></a>
+            </div>
           </div>
         </div>
         <div class="one-third column">
-          1/3
-        </div>
-        <div class="one-third column">
-          1/3
+          <div class="card-element">
+            <div class="card-img-wrapper">
+              <img src="images/guy3.png" alt="">
+            </div>
+            <div class="card-title">
+              <span>Максим Барышников</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Партнёр, специализируется в международном частном и семейном праве, Legal-IT, арбитраже.  Имеет статус адвоката в Украине.
+              </p>
+            </div>
+            <div class="info">
+                <a href="#"><img src="images/social/fbblue.png" alt="socila"></a>
+                <a href="#"><img src="images/social/inblue.png" alt="socila"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

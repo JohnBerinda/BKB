@@ -385,6 +385,7 @@ label {
   background-color: #fafafa;
   margin-top: 40px;
   padding: 60px;
+  background-image: url('../images/our-team-back.png');
 }
 
 #main .our-team-wrapper .our-team-block-title h2{
@@ -393,6 +394,32 @@ label {
   font-size: 34px;
   font-weight: 400;
   text-align: center;
+}
+
+#main .our-team-wrapper .card-element{
+  padding: 5px 30px;
+}
+
+#main .our-team-wrapper .card-element .card-title{
+  color: #2c3036;
+  font-family: "Yeseva One";
+  font-size: 24px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+#main .our-team-wrapper .card-element .card-content{
+  color: #5a5c60;
+  font-family: "Clear Sans";
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#main .our-team-wrapper .card-img-wrapper img{
+  -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+  -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+  box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+  width: 100%;
 }
 
 #main .main-legal-it{
@@ -542,3 +569,70 @@ label {
 }
 
 /* Footer style ends */
+
+/* About company page */
+
+.about-company-benefits{
+  padding-top: 130px;
+}
+
+.benefit-card{
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+
+.benefit-card .benefit-icon-wrapper{
+  height: 140px;
+}
+
+.benefit-content{
+  color: #5a5c60;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+  height: 90px;
+  overflow: hidden;
+}
+
+.benefit-details a{
+  color: #608fcc;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.benefit-details a::before{
+  content: '';
+  background-image: url('../images/arrow.png');
+  display: block;
+  width: 37px;
+  height: 7px;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  display: inline-block;
+}
+
+.about-company-description-wrapper{
+  margin-top: 50px;
+  padding: 70px 0;
+  background-image: url('../images/about-company-line.png'), url('../images/ukraine.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, right top;
+}
+
+.about-company-description-content{
+  color: #5a5c60;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.about-company-description-content p{
+  background-color: #fff;
+}
