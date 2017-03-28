@@ -1,3 +1,94 @@
+
+@font-face {
+    font-family: "YesevaOneRegular";
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot");
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.woff") format("woff"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ClearSans";
+    src: url("../fonts/ClearSans/ClearSans-Light.ttf");
+    url("../fonts/ClearSans/ClearSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Юредическая помощь*/
+
+.legal-assistance-wrapper {
+    background-image: url(../images/bkb_legal_it-background.png),url(../images/Legal_assis_form-bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: -150px -200px, center right;
+    background-size: auto auto,50% 72%;
+
+}
+
+.legal-assistance-content{
+    padding: 160px 0 100px;
+    font-family: "ClearSans";
+}
+.legal-assistance-content h3 {
+    font-family: "YesevaOneRegular";
+}
+.legal-assistance-content p,.legal-assistance-content label {
+    max-width: 80%;
+    font-size: 16px;
+    color: #77797c;
+    font-weight: 500;
+
+}
+
+.legal-assistance-form-wrapper input[type=text]{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30px;
+    padding:20px;
+}
+.legal-assistance-form-wrapper textarea {
+    width: 87%;
+    max-width: 520px;
+    height: 150px;
+    resize: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.legal-assistance-form-wrapper #assistance-form{
+    display: none;
+}
+.legal-assistance-form-wrapper {
+    padding: 40px 0 40px 40px;
+    position: relative;
+}
+
+.legal-assistance-form-wrapper form > label{
+    float: right;
+    margin-right: 70px;
+    color: #5e8bc5;
+    font-size: 16px;
+    position: relative;
+}
+.legal-assistance-form-wrapper form > label::before {
+    width: 19px;
+    height: 29px;
+    content: "";
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 16px;
+    right: 100px;
+    transform: scale(3.5, 1.2);
+    position: absolute;
+}
+
+
+
+/*Юредическая помощь*/
+
 /* header style starts */
 
 #header .header-wrapper{
@@ -72,6 +163,7 @@
 }
 /* header style ends */
 
+<<<<<<< HEAD
 /* nav style starts */
 
 #nav .top-navigation{
