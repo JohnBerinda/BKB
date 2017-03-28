@@ -152,9 +152,22 @@ label {
 
 
 
+/*Media Legal start*/
 
+.media-content-wrapper {
+    padding: 150px 0 60px 0 ;
+}
 
+.media-content-wrapper p{
+    text-align: center;
+}
 
+.media-social-wrapper {
+    padding: 60px 0 60px 0;
+    background-color: #fafafa;
+}
+
+/*Media Legal end*/
 
 /* header style starts */
 
