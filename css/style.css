@@ -71,3 +71,175 @@
   transform: scale(2.5, 1.2);
 }
 /* header style ends */
+
+/* nav style starts */
+
+#nav .top-navigation{
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 40px;
+  max-width: 1280px;
+  transform: translateX(-50%);
+}
+#nav .top-navigation ul {
+	display: flex;
+	list-style: none;
+  color: #fff;
+}
+#nav .top-navigation li {
+	flex-grow: 1;
+	flex-basis: auto;
+	text-align: center;
+}
+#nav .top-navigation li a {
+	color: #aeb8c2;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+#nav .top-navigation li:nth-child(6) {
+	margin-left: 400px;
+}
+#nav .top-navigation li:nth-child(n+6) {
+	flex-grow: 1.6;
+}
+
+/* nav style ends */
+
+#main .about-company-wrapper{
+  padding: 100px 0 0 0;
+  background-image: url('../images/ukraine.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#main .about-company-content{
+  padding: 50px 0 35px 50px;
+  background-image: url('../images/about-company.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#main .about-company-title{
+  color: #2c3036;
+  font-family: "Yeseva One";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#main .about-company-title-underline{
+  background-image: url('../images/title-underline.png');
+  height: 20px;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+
+#main .about-company-text{
+  color: #5a5c60;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#main .company-news{
+  padding: 20px 0 20px 40px;
+  border-left: 2px solid #f4f4f4;
+}
+
+#main .our-team-wrapper{
+  height: 350px;
+  background-color: #fafafa;
+  margin-top: 40px;
+}
+
+/* Footer style starts */
+
+#footer .footer-top{
+  padding: 0 15px;
+  margin: 0 -15px;
+  border-right: 3px solid #f4f4f4;
+  border-left: 3px solid #f4f4f4;
+}
+
+#footer .footer-logo-wrapper,
+#footer .footer-menu-wrapper{
+  padding: 10px 0;
+}
+
+#footer .footer-menu-wrapper ul{
+  text-align: right;
+  margin: 0;
+}
+
+#footer .footer-menu-wrapper ul li{
+  display: inline-block;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+#footer .footer-menu-wrapper ul li a{
+  color: #999fa5;
+  font-family: "Clear Sans";
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#footer .footer-bottom{
+  background-color: #f7f7f7;
+  padding: 15px 0;
+}
+
+#footer .social-list{
+  text-align: right;
+}
+
+#footer .social-list .social-item{
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+#footer .social-list .social-item .social-icon{
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+}
+
+#footer .social-icon.vk{
+  background-image: url('../images/social/vk.png');
+}
+
+#footer .social-icon.fb{
+  background-image: url('../images/social/fb.png');
+}
+
+#footer .social-icon.inst{
+  background-image: url('../images/social/inst.png');
+}
+
+#footer .social-icon.youtube{
+  background-image: url('../images/social/youtube.png');
+}
+
+#footer .social-icon.twit{
+  background-image: url('../images/social/twit.png');
+}
+
+#footer .social-icon.telegram{
+  background-image: url('../images/social/telegram.png');
+}
+
+#footer .copyright-wrapper{
+  color: #999fa5;
+  font-family: "Clear Sans";
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* Footer style ends */
