@@ -79,7 +79,7 @@
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
     background-position: center left;
-    background-size: 16px;
+    background-size: 16px 6px;
     right: 100px;
     transform: scale(3.5, 1.2);
     position: absolute;
