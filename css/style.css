@@ -174,7 +174,9 @@
   transform: translateX(-50%);
 }
 #nav .top-navigation ul {
-	display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 	list-style: none;
   color: #fff;
 }
@@ -311,6 +313,54 @@
   font-size: 34px;
   font-weight: 400;
   text-align: center;
+}
+
+#main .main-legal-it{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .main-legal-it .main-legal-it-block{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+}
+
+#main .main-legal-it .main-legal-it-block.left{
+  background-color: #2c3036;
+  background-image: url('../images/weight.png');
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+
+#main .main-legal-it-block-content{
+  color: #fff;
+  position: absolute;
+  width: 600px;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#main .main-legal-it-block-content-title{
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 44px;
+  font-weight: 400;
+}
+
+#main .main-legal-it-block-content-text{
+  color: #dbdee5;
+  font-family: "Clear Sans";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#main .main-legal-it .main-legal-it-block.right img{
+  width: 100%;
+  display: block;
 }
 
 .block-title-underline{

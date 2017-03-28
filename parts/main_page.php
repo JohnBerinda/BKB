@@ -84,4 +84,27 @@
       </div>
     </div>
   </div>
+  <div class="main-legal-it-wrapper">
+    <div class="main-legal-it">
+      <div class="main-legal-it-block left">
+        <div class="main-legal-it-block-content">
+          <div class="main-legal-it-block-content-title">
+            <h2>Legal IT</h2>
+            <div class="about-company-title-underline"></div>
+          </div>
+          <div class="main-legal-it-block-content-text">
+            <p>
+              Юридическая компания «BKB» чувствует свою ответственность за общество в котором живет и работает. Наша корпоративная программа социальной ответственности «Цдака» построена на принципах социальной ответственности и взаимопомощи.
+            </p>
+            <p>
+              Партнеры компании имеют огромный опыт безвозмездной работы на общественных началах и с каждым годом наша юридическая поддержка общественных институтов в Украине и в Израиле только увеличивается. Наша деятельность варьируется в диапазоне от оказания благотворительной помощи ряду неприбыльных организаций в Украине и за рубежом.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main-legal-it-block right">
+        <img src="images/main-legal-it.png" alt="">
+      </div>
+    </div>
+  </div>
 </main>
