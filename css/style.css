@@ -1,10 +1,7 @@
-
-
-
 @font-face {
     font-family: "YesevaOneRegular";
     src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot");
-    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot?#iefix")format("embedded-opentype"),
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/YesevaOneRegular/YesevaOneRegular.woff") format("woff"),
     url("../fonts/YesevaOneRegular/YesevaOneRegular.ttf") format("truetype");
     font-style: normal;
@@ -14,16 +11,16 @@
 @font-face {
     font-family: "ClearSans";
     src: url("../fonts/ClearSans/ClearSans-Light.ttf");
-    url("../fonts/ClearSans/ClearSans-Light.ttf") format("truetype");
+url("../fonts/ClearSans/ClearSans-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "YesevaOneRegular";
 }
 
-p,a {
+p, a {
     font-size: 16px;
     font-family: "ClearSans";
 }
@@ -37,24 +34,27 @@ label {
 .text-center {
     text-align: center;
 }
+
 /*Юредическая помощь*/
 
 .legal-assistance-wrapper {
-    background-image: url(../images/bkb_legal_it-background.png),url(../images/Legal_assis_form-bg.png);
-    background-repeat: no-repeat,no-repeat;
+    background-image: url(../images/bkb_legal_it-background.png), url(../images/Legal_assis_form-bg.png);
+    background-repeat: no-repeat, no-repeat;
     background-position: -150px -200px, center right;
-    background-size: auto auto,50% 72%;
+    background-size: auto auto, 50% 72%;
 
 }
 
-.legal-assistance-content{
+.legal-assistance-content {
     padding: 160px 0 100px;
     font-family: "ClearSans";
 }
+
 .legal-assistance-content h3 {
     font-family: "YesevaOneRegular";
 }
-.legal-assistance-content p,.legal-assistance-content label {
+
+.legal-assistance-content p, .legal-assistance-content label {
     max-width: 80%;
     font-size: 16px;
     color: #77797c;
@@ -62,12 +62,13 @@ label {
 
 }
 
-.legal-assistance-form-wrapper input[type=text]{
+.legal-assistance-form-wrapper input[type=text] {
     width: 100%;
     max-width: 200px;
     border-radius: 30px;
-    padding:20px;
+    padding: 20px;
 }
+
 .legal-assistance-form-wrapper textarea {
     width: 87%;
     max-width: 520px;
@@ -77,21 +78,23 @@ label {
     padding: 20px;
 }
 
-.legal-assistance-form-wrapper #assistance-form{
+.legal-assistance-form-wrapper #assistance-form {
     display: none;
 }
+
 .legal-assistance-form-wrapper {
     padding: 40px 0 40px 40px;
     position: relative;
 }
 
-.legal-assistance-form-wrapper form > label{
+.legal-assistance-form-wrapper form > label {
     float: right;
     margin-right: 70px;
     color: #5e8bc5;
     font-size: 16px;
     position: relative;
 }
+
 .legal-assistance-form-wrapper form > label::before {
     width: 19px;
     height: 29px;
@@ -105,12 +108,7 @@ label {
     position: absolute;
 }
 
-
-
 /*Юредическая помощь*/
-
-
-
 
 /*Legal-Team-partial start*/
 .legal-team-wrapper {
@@ -121,20 +119,22 @@ label {
     padding: 100px 0 100px 0;
 }
 
-
 .legal-team-content img {
     -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
     -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
     box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
 
 }
-.legal-team-content img,.legal-team-content label,.legal-team-content .info {
+
+.legal-team-content img, .legal-team-content label, .legal-team-content .info {
     width: 70%;
     margin-left: 30%;
 }
+
 .legal-team-content .info {
     margin-top: 20px;
 }
+
 .legal-team-content .info a img {
     width: auto;
     margin-left: auto;
@@ -144,6 +144,7 @@ label {
 .legal-team-content p {
     max-width: 70%;
 }
+
 .legal-team-content label a {
     text-decoration: none;
     color: #608fcc;
@@ -155,15 +156,13 @@ label {
 
 /*Legal-Team-partial end*/
 
-
-
 /*Media Legal start*/
 
 .media-content-wrapper {
-    padding: 150px 0 60px 0 ;
+    padding: 150px 0 60px 0;
 }
 
-.media-content-wrapper p{
+.media-content-wrapper p {
     text-align: center;
 }
 
@@ -171,15 +170,14 @@ label {
     padding: 60px 0 60px 0;
     background-color: #fafafa;
 }
-.media-social-wrapper .social-links a{
+
+.media-social-wrapper .social-links a {
     display: block;
     margin: 5px 0 5px 0;
     text-decoration: none;
 }
+
 /*Media Legal end*/
-
-
-
 
 /* Advisors start*/
 
@@ -191,13 +189,14 @@ label {
     padding: 100px 0 100px 0;
     padding: 100px 0 80px;
 }
+
 .advisors-wrapper a {
     display: block;
     margin: 5px 0 10px 0;
     text-decoration: none;
 }
 
-.advisors-team-content .four > img{
+.advisors-team-content .four > img {
     width: 90%;
     -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
     -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
@@ -223,479 +222,550 @@ label {
 /*Partners Start*/
 
 .partners-logo-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 40px 0 0 0;
 }
 
-
 /*Partners End*/
+
+
+/*About Start*/
+
+.about-new-block-wrapper {
+    background-color: #fafafa;
+    padding: 100px 0 80px 0;
+    position: relative;
+}
+.about-slider-navigation-left,
+.about-slider-navigation-right{
+    position: absolute;
+    top: 35%;
+}
+.about-slider-navigation-left {
+    left: -70px;
+}
+.about-slider-navigation-right {
+    right: -50px;
+}
+
+.slider-news-block-wrapper {
+    padding: 40px 0 20px 0;
+}
+.about-news-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.about-news-item-date {
+    text-align: center;
+    line-height: 1em;
+    align-self: center;
+}
+.about-news-item-date span{
+    margin-right: 15px;
+    text-align: center;
+    color: #c7c9ce;
+    font-family: "Yeseva One";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.about-news-item-link {
+    line-height: 1.6em;
+    height: 3.2em;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+}
+.about-news-item-link a {
+    text-decoration: none;
+    color: #608fcc;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*About End*/
 
 /* header style starts */
 
-#header .header-wrapper{
-  background-color: #242629;
-  position: relative;
+#header .header-wrapper {
+    background-color: #242629;
+    position: relative;
 }
 
-#header .header-figure{
-  position: absolute;
-  left: 50%;
-  bottom: -64px;
-  transform: translateX(-50%);
-  display: inline-block;
+#header .header-figure {
+    position: absolute;
+    left: 50%;
+    bottom: -64px;
+    transform: translateX(-50%);
+    display: inline-block;
 }
 
-#header .header-wrapper .back-img{
-  max-width: 100%;
-  display: block;
+#header .header-wrapper .back-img {
+    max-width: 100%;
+    display: block;
 }
 
-#header .header-figure .logo-wrapper{
-  position: absolute;
-  left: 50%;
-  top: 40px;
-  transform: translateX(-50%);
-  display: inline-block;
+#header .header-figure .logo-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    display: inline-block;
 }
 
-#header .header-content{
-  color: #fff;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 660px;
-  text-align: center;
+#header .header-content {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 660px;
+    text-align: center;
 }
 
-#header .header-content-title{
-  font-size: 40px;
-  font-weight: 400;
-  margin-bottom: 30px;
-  font-family: "Yeseva One";
+#header .header-content-title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: "Yeseva One";
 }
 
-#header .header-content-content{
-  width: 565px;
-  margin: auto;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
+#header .header-content-content {
+    width: 565px;
+    margin: auto;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
 }
 
-#header .header-content-details{
-  margin-top: 70px;
+#header .header-content-details {
+    margin-top: 70px;
 }
 
-#header .header-content-details a{
-  color: #608fcc;
-  font-family: "Clear Sans";
-  text-decoration: none;
-  display: block;
+#header .header-content-details a {
+    color: #608fcc;
+    font-family: "Clear Sans";
+    text-decoration: none;
+    display: block;
 }
 
-#header .header-content-details a span{
-  display: inline-block;
+#header .header-content-details a span {
+    display: inline-block;
 }
 
-#header .header-content-details .header-content-details-arrow{
-  margin-right: 40px;
-  transform: scale(2.5, 1.2);
+#header .header-content-details .header-content-details-arrow {
+    margin-right: 40px;
+    transform: scale(2.5, 1.2);
 }
+
 /* header style ends */
 
 /* nav style starts */
 
-#nav .top-navigation{
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 40px;
-  max-width: 1280px;
-  transform: translateX(-50%);
+#nav .top-navigation {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 40px;
+    max-width: 1280px;
+    transform: translateX(-50%);
 }
+
 #nav .top-navigation ul {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-	list-style: none;
-  color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    color: #fff;
 }
+
 #nav .top-navigation li {
-	flex-grow: 1;
-	flex-basis: auto;
-	text-align: center;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: center;
 }
+
 #nav .top-navigation li a {
-	color: #aeb8c2;
-  font-size: 14px;
-  text-decoration: none;
-  color: #fff;
+    color: #aeb8c2;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
 }
+
 #nav .top-navigation li:nth-child(6) {
-	margin-left: 400px;
+    margin-left: 400px;
 }
+
 #nav .top-navigation li:nth-child(n+6) {
-	flex-grow: 1.6;
+    flex-grow: 1.6;
 }
 
 /* nav style ends */
 
-#main .about-company-wrapper{
-  padding: 100px 0 0 0;
-  background-image: url('../images/ukraine.png');
-  background-repeat: no-repeat;
-  background-position: left top;
+#main .about-company-wrapper {
+    padding: 100px 0 0 0;
+    background-image: url('../images/ukraine.png');
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
-#main .about-company-content{
-  padding: 50px 0 35px 50px;
-  background-image: url('../images/about-company.png');
-  background-repeat: no-repeat;
-  background-position: left top;
+#main .about-company-content {
+    padding: 50px 0 35px 50px;
+    background-image: url('../images/about-company.png');
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
-#main .about-company-title{
-  color: #2c3036;
-  font-family: "Yeseva One";
-  font-size: 30px;
-  font-weight: 400;
+#main .about-company-title {
+    color: #2c3036;
+    font-family: "Yeseva One";
+    font-size: 30px;
+    font-weight: 400;
 }
 
-#main .about-company-title-underline{
-  background-image: url('../images/title-underline.png');
-  height: 20px;
-  background-repeat: no-repeat;
-  margin-bottom: 25px;
+#main .about-company-title-underline {
+    background-image: url('../images/title-underline.png');
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 
-#main .about-company-text{
-  color: #5a5c60;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
+#main .about-company-text {
+    color: #5a5c60;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
 }
 
-#main .company-news{
-  padding: 20px 0 20px 40px;
-  border-left: 2px solid #f4f4f4;
+#main .company-news {
+    padding: 20px 0 20px 40px;
+    border-left: 2px solid #f4f4f4;
 }
 
-#main .company-news .company-news-title{
-  color: #2c3036;
-  font-family: "Yeseva One";
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 30px;
+#main .company-news .company-news-title {
+    color: #2c3036;
+    font-family: "Yeseva One";
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-#main .company-news .company-news-item{
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 35px;
-  padding-bottom: 30px;
-  background-image: url('../images/news-item-line.png');
-  background-repeat: no-repeat;
-  background-position: left bottom;
+#main .company-news .company-news-item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    background-image: url('../images/news-item-line.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
-#main .company-news .company-news-item:last-child{
-  background-image: unset;
-  margin-bottom: 15px;
-  padding-bottom: 0px;
+#main .company-news .company-news-item:last-child {
+    background-image: unset;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 #main .company-news .company-news-item-date,
-#main .company-news .company-news-item-link{
-  display: inline-block;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+#main .company-news .company-news-item-link {
+    display: inline-block;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
 }
 
-#main .company-news .company-news-item-date{
-  margin-right: 15px;
-  text-align: center;
-  color: #c7c9ce;
-  font-family: "Yeseva One";
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 65px;
+#main .company-news .company-news-item-date {
+    margin-right: 15px;
+    text-align: center;
+    color: #c7c9ce;
+    font-family: "Yeseva One";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 65px;
 }
 
-#main .company-news .company-news-item-link{
-  line-height: 1.6em;
-  height: 3.2em;
-  overflow: hidden;
-  /*white-space: nowrap;*/
-  text-overflow: ellipsis;
+#main .company-news .company-news-item-link {
+    line-height: 1.6em;
+    height: 3.2em;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
 }
 
-#main .company-news .company-news-item-link a{
-  text-decoration: none;
-  color: #608fcc;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
+#main .company-news .company-news-item-link a {
+    text-decoration: none;
+    color: #608fcc;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
 }
 
-#main .our-team-wrapper{
-  background-color: #fafafa;
-  margin-top: 40px;
-  padding: 60px;
-  background-image: url('../images/our-team-back.png');
+#main .our-team-wrapper {
+    background-color: #fafafa;
+    margin-top: 40px;
+    padding: 60px;
+    background-image: url('../images/our-team-back.png');
 }
 
-#main .our-team-wrapper .our-team-block-title h2{
-  color: #2c3036;
-  font-family: "Yeseva One";
-  font-size: 34px;
-  font-weight: 400;
-  text-align: center;
+#main .our-team-wrapper .our-team-block-title h2 {
+    color: #2c3036;
+    font-family: "Yeseva One";
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
 }
 
-#main .our-team-wrapper .card-element{
-  padding: 5px 30px;
+#main .our-team-wrapper .card-element {
+    padding: 5px 30px;
 }
 
-#main .our-team-wrapper .card-element .card-title{
-  color: #2c3036;
-  font-family: "Yeseva One";
-  font-size: 24px;
-  font-weight: 400;
-  margin: 15px 0;
+#main .our-team-wrapper .card-element .card-title {
+    color: #2c3036;
+    font-family: "Yeseva One";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px 0;
 }
 
-#main .our-team-wrapper .card-element .card-content{
-  color: #5a5c60;
-  font-family: "Clear Sans";
-  font-size: 15px;
-  font-weight: 300;
+#main .our-team-wrapper .card-element .card-content {
+    color: #5a5c60;
+    font-family: "Clear Sans";
+    font-size: 15px;
+    font-weight: 300;
 }
 
-#main .our-team-wrapper .card-img-wrapper img{
-  -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
-  -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
-  box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
-  width: 100%;
+#main .our-team-wrapper .card-img-wrapper img {
+    -webkit-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    -moz-box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    box-shadow: -20px -1px 0px -12px rgba(220, 222, 224, 1), 20px -2px 0px -11px rgba(220, 222, 224, 1);
+    width: 100%;
 }
 
-#main .main-legal-it{
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+#main .main-legal-it {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
-#main .main-legal-it .main-legal-it-block{
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  position: relative;
+#main .main-legal-it .main-legal-it-block {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
 }
 
-#main .main-legal-it .main-legal-it-block.left{
-  background-color: #2c3036;
-  background-image: url('../images/weight.png');
-  background-repeat: no-repeat;
-  background-position: 20px center;
+#main .main-legal-it .main-legal-it-block.left {
+    background-color: #2c3036;
+    background-image: url('../images/weight.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
 }
 
-#main .main-legal-it-block-content{
-  color: #fff;
-  position: absolute;
-  width: 600px;
-  right: 50px;
-  top: 50%;
-  transform: translateY(-50%);
+#main .main-legal-it-block-content {
+    color: #fff;
+    position: absolute;
+    width: 600px;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-#main .main-legal-it-block-content-title{
-  color: #ffffff;
-  font-family: "Yeseva One";
-  font-size: 44px;
-  font-weight: 400;
+#main .main-legal-it-block-content-title {
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 44px;
+    font-weight: 400;
 }
 
-#main .main-legal-it-block-content-text{
-  color: #dbdee5;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
+#main .main-legal-it-block-content-text {
+    color: #dbdee5;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
 }
 
-#main .main-legal-it .main-legal-it-block.right img{
-  width: 100%;
-  display: block;
+#main .main-legal-it .main-legal-it-block.right img {
+    width: 100%;
+    display: block;
 }
 
-.block-title-underline{
-  background-image: url('../images/title-underline.png');
-  height: 20px;
-  background-repeat: no-repeat;
-  text-align: center;
-  margin: 25px auto;
-  width: 88px;
+.block-title-underline {
+    background-image: url('../images/title-underline.png');
+    height: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 25px auto;
+    width: 88px;
 }
 
 /* Footer style starts */
 
-#footer .footer-top{
-  padding: 0 15px;
-  margin: 0 -15px;
-  border-right: 3px solid #f4f4f4;
-  border-left: 3px solid #f4f4f4;
+#footer .footer-top {
+    padding: 0 15px;
+    margin: 0 -15px;
+    border-right: 3px solid #f4f4f4;
+    border-left: 3px solid #f4f4f4;
 }
 
 #footer .footer-logo-wrapper,
-#footer .footer-menu-wrapper{
-  padding: 10px 0;
+#footer .footer-menu-wrapper {
+    padding: 10px 0;
 }
 
-#footer .footer-menu-wrapper ul{
-  text-align: right;
-  margin: 0;
+#footer .footer-menu-wrapper ul {
+    text-align: right;
+    margin: 0;
 }
 
-#footer .footer-menu-wrapper ul li{
-  display: inline-block;
-  padding: 10px;
-  margin-right: 5px;
+#footer .footer-menu-wrapper ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
 }
 
-#footer .footer-menu-wrapper ul li a{
-  color: #999fa5;
-  font-family: "Clear Sans";
-  font-size: 14px;
-  font-weight: 300;
-  text-decoration: none;
+#footer .footer-menu-wrapper ul li a {
+    color: #999fa5;
+    font-family: "Clear Sans";
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
 }
 
-#footer .footer-bottom{
-  background-color: #f7f7f7;
-  padding: 15px 0;
+#footer .footer-bottom {
+    background-color: #f7f7f7;
+    padding: 15px 0;
 }
 
-#footer .social-list{
-  text-align: right;
+#footer .social-list {
+    text-align: right;
 }
 
-#footer .social-list .social-item{
-  display: inline-block;
-  padding: 3px;
-  margin-left: 5px;
+#footer .social-list .social-item {
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
 }
 
-#footer .social-list .social-item .social-icon{
-  width: 25px;
-  height: 25px;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
+#footer .social-list .social-item .social-icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
 }
 
-#footer .social-icon.vk{
-  background-image: url('../images/social/vk.png');
+#footer .social-icon.vk {
+    background-image: url('../images/social/vk.png');
 }
 
-#footer .social-icon.fb{
-  background-image: url('../images/social/fb.png');
+#footer .social-icon.fb {
+    background-image: url('../images/social/fb.png');
 }
 
-#footer .social-icon.inst{
-  background-image: url('../images/social/inst.png');
+#footer .social-icon.inst {
+    background-image: url('../images/social/inst.png');
 }
 
-#footer .social-icon.youtube{
-  background-image: url('../images/social/youtube.png');
+#footer .social-icon.youtube {
+    background-image: url('../images/social/youtube.png');
 }
 
-#footer .social-icon.twit{
-  background-image: url('../images/social/twit.png');
+#footer .social-icon.twit {
+    background-image: url('../images/social/twit.png');
 }
 
-#footer .social-icon.telegram{
-  background-image: url('../images/social/telegram.png');
+#footer .social-icon.telegram {
+    background-image: url('../images/social/telegram.png');
 }
 
-#footer .copyright-wrapper{
-  color: #999fa5;
-  font-family: "Clear Sans";
-  font-size: 13px;
-  font-weight: 300;
-  margin-top: 10px;
+#footer .copyright-wrapper {
+    color: #999fa5;
+    font-family: "Clear Sans";
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
 }
 
 /* Footer style ends */
 
 /* About company page */
 
-.about-company-benefits{
-  padding-top: 130px;
+.about-company-benefits {
+    padding-top: 130px;
 }
 
-.benefit-card{
-  text-align: center;
-  padding: 0 10px 10px 10px;
+.benefit-card {
+    text-align: center;
+    padding: 0 10px 10px 10px;
 }
 
-.benefit-card .benefit-icon-wrapper{
-  height: 140px;
+.benefit-card .benefit-icon-wrapper {
+    height: 140px;
 }
 
-.benefit-content{
-  color: #5a5c60;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
-  height: 90px;
-  overflow: hidden;
+.benefit-content {
+    color: #5a5c60;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
+    height: 90px;
+    overflow: hidden;
 }
 
-.benefit-details a{
-  color: #608fcc;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
-  text-decoration: none;
+.benefit-details a {
+    color: #608fcc;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
 }
 
-.benefit-details a::before{
-  content: '';
-  background-image: url('../images/arrow.png');
-  display: block;
-  width: 37px;
-  height: 7px;
-  position: absolute;
-  left: -20px;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  display: inline-block;
+.benefit-details a::before {
+    content: '';
+    background-image: url('../images/arrow.png');
+    display: block;
+    width: 37px;
+    height: 7px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    display: inline-block;
 }
 
-.about-company-description-wrapper{
-  margin-top: 50px;
-  padding: 70px 0;
-  background-image: url('../images/about-company-line.png'), url('../images/ukraine.png');
-  background-repeat: no-repeat, no-repeat;
-  background-position: top center, right top;
+.about-company-description-wrapper {
+    margin-top: 50px;
+    padding: 70px 0;
+    background-image: url('../images/about-company-line.png'), url('../images/ukraine.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, right top;
 }
 
-.about-company-description-content{
-  color: #5a5c60;
-  font-family: "Clear Sans";
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
-  margin: 0 30px;
+.about-company-description-content {
+    color: #5a5c60;
+    font-family: "Clear Sans";
+    font-size: 16px;
+    font-weight: 300;
+    margin: auto;
+    max-width: 70%;
 }
 
-.about-company-description-content p{
-  background-color: #fff;
+.about-company-description-content p {
+    background-color: #fff;
 }
