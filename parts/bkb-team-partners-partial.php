@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="four columns">
-                <h5>Советники</h5>
+                <h5>Партнеры</h5>
                 <a href="#"><span class="header-content-details-arrow">⟶</span><span>Юристы</span></a>
                 <a href="#"><span class="header-content-details-arrow">⟶</span><span>Советники</span></a>
             </div>
