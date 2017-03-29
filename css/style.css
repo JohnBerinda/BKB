@@ -215,8 +215,22 @@ label {
 
 /* Advisors end*/
 
+.partners-team-wrapper {
+    background-color: #fafafa;
+    padding: 60px 0 40px 0;
+}
+
+/*Partners Start*/
+
+.partners-logo-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0 0 0;
+}
 
 
+/*Partners End*/
 
 /* header style starts */
 
