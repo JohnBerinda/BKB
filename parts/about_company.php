@@ -55,60 +55,85 @@
         <div class="slider-news-block-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="four columns">
-                        <img src="images/slider-about-news.jpg" alt="slider">
-                        <div class="about-news-item">
-                            <div class="about-news-item-date">
-                                <div class="about-news-item-date-number">
-                                    <span>31</span>
-                                </div>
-                                <div class="about-news-item-date-month">
-                                    <span>may</span>
+
+                    <div class="crsl-items" data-navigation="navbtns">
+                        <div class="crsl-wrap">
+                            <div class="crsl-item">
+                                <img src="images/slider-about-news.jpg" alt="slider">
+                                <div class="about-news-item">
+                                    <div class="about-news-item-date">
+                                        <div class="about-news-item-date-number">
+                                            <span>31</span>
+                                        </div>
+                                        <div class="about-news-item-date-month">
+                                            <span>may</span>
+                                        </div>
+                                    </div>
+                                    <div class="about-news-item-link">
+                                        <a href="#">Максим Барышников: как технологическая революция меняет все лолка
+                                            наполеон сталин смотреть без СМС и регистрации</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="about-news-item-link">
-                                <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
+                            <div class="crsl-item">
+                                <img src="images/slider-about-news.jpg" alt="slider">
+                                <div class="about-news-item">
+                                    <div class="about-news-item-date">
+                                        <div class="about-news-item-date-number">
+                                            <span>31</span>
+                                        </div>
+                                        <div class="about-news-item-date-month">
+                                            <span>may</span>
+                                        </div>
+                                    </div>
+                                    <div class="about-news-item-link">
+                                        <a href="#">Максим Барышников: как технологическая революция меняет все лолка
+                                            наполеон сталин смотреть без СМС и регистрации</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/slider-about-news.jpg" alt="slider">
+                                <div class="about-news-item">
+                                    <div class="about-news-item-date">
+                                        <div class="about-news-item-date-number">
+                                            <span>31</span>
+                                        </div>
+                                        <div class="about-news-item-date-month">
+                                            <span>may</span>
+                                        </div>
+                                    </div>
+                                    <div class="about-news-item-link">
+                                        <a href="#">Максим Барышников: как технологическая революция меняет все лолка
+                                            наполеон сталин смотреть без СМС и регистрации</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/slider-about-news.jpg" alt="slider">
+                                <div class="about-news-item">
+                                    <div class="about-news-item-date">
+                                        <div class="about-news-item-date-number">
+                                            <span>31</span>
+                                        </div>
+                                        <div class="about-news-item-date-month">
+                                            <span>may</span>
+                                        </div>
+                                    </div>
+                                    <div class="about-news-item-link">
+                                        <a href="#">Максим Барышников: как технологическая революция меняет все лолка
+                                            наполеон сталин смотреть без СМС и регистрации</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="four columns">
-                        <img src="images/slider-about-news.jpg" alt="slider">
-                        <div class="about-news-item">
-                            <div class="about-news-item-date">
-                                <div class="about-news-item-date-number">
-                                    <span>31</span>
-                                </div>
-                                <div class="about-news-item-date-month">
-                                    <span>may</span>
-                                </div>
-                            </div>
-                            <div class="about-news-item-link">
-                                <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="four columns">
-                        <img src="images/slider-about-news.jpg" alt="slider">
-                        <div class="about-news-item">
-                            <div class="about-news-item-date">
-                                <div class="about-news-item-date-number">
-                                    <span>31</span>
-                                </div>
-                                <div class="about-news-item-date-month">
-                                    <span>may</span>
-                                </div>
-                            </div>
-                            <div class="about-news-item-link">
-                                <a href="#">Максим Барышников: как технологическая революция меняет все лолка наполеон сталин смотреть без СМС и регистрации</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-slider-navigation">
+                    <div class="about-slider-navigation" id="navbtns">
                         <div class="about-slider-navigation-left">
-                            <img src="images/slider-control-left.png" alt="slider-left">
+                            <a href="#" class="previous"><img src="images/slider-control-left.png" alt="slider-left"></a>
                         </div>
                         <div class="about-slider-navigation-right">
-                            <img src="images/slider-control-right.png" alt="slider-right">
+                            <a href="#" class="next"><img src="images/slider-control-right.png" alt="slider-right"></a>
                         </div>
                     </div>
                 </div>
@@ -116,3 +141,4 @@
         </div>
     </div>
 </div>
+

@@ -37,5 +37,28 @@
   <?php include('parts/about_company.php'); ?>
   <?php include('parts/footer.php'); ?>
 
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/responsiveCarousel.min.js"></script>
+
+
+  <script>
+      $(document).ready(function () {
+          $(function () {
+              $('.crsl-items').carousel({
+                  visible: 3,
+                  itemMinWidth: 180,
+                  itemEqualHeight: 370,
+                  itemMargin: 1
+              });
+
+              $("a[href=#]").on('click', function (e) {
+                  e.preventDefault();
+              });
+          });
+      });
+
+
+  </script>
+
 </body>
 </html>

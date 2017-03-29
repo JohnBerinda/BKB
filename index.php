@@ -37,5 +37,6 @@
   <?php include('parts/main_page.php'); ?>
   <?php include('parts/footer.php'); ?>
 
+
 </body>
 </html>
