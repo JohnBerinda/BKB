@@ -19,9 +19,9 @@
         </nav>
         <div class="header-figure">
         </div>
-        <div class="header-slider-list" data-navigation="navbtns1">
-            <div class="crsl-wrap">
-                <div class="crsl-item">
+        <div class="header-slider-list slider">
+
+                <div class="header-slider-slide slick-active">
                     <div class="header-content">
                         <div class="header-content-title">
                             <span>Юридическая компания <br> «Би Кей Би» к Вашим услугам</span>
@@ -35,7 +35,7 @@
                     </div>
                     <img class="back-img" src="images/header-background.png" alt="">
                 </div>
-                <div class="crsl-item">
+                <div class="header-slider-slide">
                     <div class="header-content">
                         <div class="header-content-title">
                             <span>Юридическая компания1 <br> «Би Кей Би» к Вашим услугам</span>
@@ -49,17 +49,17 @@
                     </div>
                     <img class="back-img" src="images/header-background.png" alt="">
                 </div>
+
+
+        </div>
+        <div class="header-slider-navigation">
+            <div class="header-slider-navigation-left">
+                <span class="header-slick-previous"><img src="images/slider-arrow1.png" alt="slider-left"></span>
             </div>
-            <div class="header-slider-navigation" id="navbtns1">
-                <div class="header-slider-navigation-left">
-                    <a href="#" class="previous"><img src="images/slider-arrow1.png" alt="slider-left"></a>
-                </div>
-                <div class="header-slider-navigation-right">
-                    <a href="#" class="next"><img src="images/slider-arrow2.png" alt="slider-right"></a>
-                </div>
+            <div class="header-slider-navigation-right">
+                <span class="header-slick-next"><img src="images/slider-arrow2.png" alt="slider-right"></span>
             </div>
         </div>
-
     </div>
 </header>
 

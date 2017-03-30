@@ -19,7 +19,9 @@ url("../fonts/ClearSans/ClearSans-Light.ttf") format("truetype");
 h1, h2, h3, h4, h5, h6 {
     font-family: "YesevaOneRegular";
 }
-
+h1 {
+    font-size: 6rem;
+}
 p, a {
     font-size: 16px;
     font-family: "ClearSans";
@@ -29,6 +31,18 @@ label {
     font-size: 15px;
     font-family: "ClearSans";
     color: #c2c4c9;
+}
+
+body .header-slider-slide{
+    position: relative;
+}
+
+.header-slider-list.slick-initialized .slick-slide{
+    outline: unset;
+}
+
+.header-slick-previous, .header-slick-next{
+    cursor: pointer;
 }
 
 .text-center {
@@ -385,6 +399,19 @@ label {
     display: inline-block;
 }
 
+.common-header {
+    height: 300px;
+
+}
+.common-header > div.div {
+    max-height: 100%;
+    overflow: hidden;
+}
+.common-header .header-figure {
+    background-image: url('../images/title-underline.png');
+    background-position: center 98%;
+    background-repeat: no-repeat;
+}
 #header .header-content {
     color: #fff;
     position: absolute;

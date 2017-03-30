@@ -37,7 +37,7 @@
   <?php include('parts/about_company.php'); ?>
   <?php include('parts/footer.php'); ?>
 
-  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/responsiveCarousel.min.js"></script>
 
 
