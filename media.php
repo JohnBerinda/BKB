@@ -33,7 +33,7 @@
   </div>
 </div> -->
 
-<?php include('parts/header.php'); ?>
+<?php include('parts/header-common.php'); ?>
 <?php include('parts/media_partial.php'); ?>
 <?php include('parts/footer.php'); ?>
 

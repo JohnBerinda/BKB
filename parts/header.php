@@ -21,34 +21,38 @@
         </div>
         <div class="header-slider-list slider">
 
-                <div class="header-slider-slide slick-active">
-                    <div class="header-content">
-                        <div class="header-content-title">
-                            <span>Юридическая компания <br> «Би Кей Би» к Вашим услугам</span>
-                        </div>
-                        <div class="header-content-content">
-                            <span>Штат Компании полностью укомплектован опытными юристами, имеющими достаточный опыт в сфере проведения юридических экспертиз различной сложности</span>
-                        </div>
-                        <div class="header-content-details">
-                            <a href="#"><span class="header-content-details-arrow">⟶</span><span>Подробнее</span></a>
-                        </div>
+            <div class="header-slider-slide slick-active">
+                <div class="header-content">
+                    <div class="header-content-title">
+                        <span>Юридическая компания <br> «Би Кей Би» к Вашим услугам</span>
                     </div>
-                    <img class="back-img" src="images/header-background.png" alt="">
-                </div>
-                <div class="header-slider-slide">
-                    <div class="header-content">
-                        <div class="header-content-title">
-                            <span>Юридическая компания1 <br> «Би Кей Би» к Вашим услугам</span>
-                        </div>
-                        <div class="header-content-content">
-                            <span>Штат Компании полностью укомплектован опытными юристами, имеющими достаточный опыт в сфере проведения юридических экспертиз различной сложности</span>
-                        </div>
-                        <div class="header-content-details">
-                            <a href="#"><span class="header-content-details-arrow">⟶</span><span>Подробнее</span></a>
-                        </div>
+                    <div class="header-content-content">
+                        <span>Штат Компании полностью укомплектован опытными юристами, имеющими достаточный опыт в сфере проведения юридических экспертиз различной сложности</span>
                     </div>
-                    <img class="back-img" src="images/header-background.png" alt="">
+                    <div class="header-content-details">
+                        <a href="#"><span class="header-content-details-arrow">⟶</span><span>Подробнее</span></a>
+                    </div>
                 </div>
+                <div class="header-bkg-image-wrapper">
+                    <img class="back-img" src="images/header-background.jpg" alt="">
+                </div>
+            </div>
+            <div class="header-slider-slide">
+                <div class="header-content">
+                    <div class="header-content-title">
+                        <span>Юридическая компания1 <br> «Би Кей Би» к Вашим услугам</span>
+                    </div>
+                    <div class="header-content-content">
+                        <span>Штат Компании полностью укомплектован опытными юристами, имеющими достаточный опыт в сфере проведения юридических экспертиз различной сложности</span>
+                    </div>
+                    <div class="header-content-details">
+                        <a href="#"><span class="header-content-details-arrow">⟶</span><span>Подробнее</span></a>
+                    </div>
+                </div>
+                <div class="header-bkg-image-wrapper">
+                    <img class="back-img" src="images/header-background.jpg" alt="">
+                </div>
+            </div>
 
 
         </div>

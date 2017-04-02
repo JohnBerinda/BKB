@@ -16,7 +16,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+<!--    <link rel="stylesheet" href="css/slick-theme.css">-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
@@ -41,6 +41,8 @@
   <script src="js/responsiveCarousel.min.js"></script>
   <script src="js/slick.min.js"></script>
 
+  <script src="dist/slideout.min.js"></script>
+
   <script>
       $(document).on('ready', function() {
 
@@ -58,7 +60,12 @@
           $('.header-slick-next').click(function () {
               $(".header-slider-list").slick('slickNext');
           })
+
+
       });
+
+
+
 
   </script>
 

@@ -48,7 +48,7 @@
                   visible: 3,
                   itemMinWidth: 180,
                   itemEqualHeight: 370,
-                  itemMargin: 1
+                  itemMargin: 10
               });
 
               $("a[href=#]").on('click', function (e) {

@@ -267,7 +267,7 @@ body .header-slider-slide{
     left: -70px;
 }
 .about-slider-navigation-right {
-    right: -50px;
+    right: -70px;
 }
 
 .slider-news-block-wrapper {
@@ -374,6 +374,13 @@ body .header-slider-slide{
     border-color: transparent #2c3036 transparent transparent;
 }
 
+#header .header-bkg-image-wrapper {
+    height: 700px;
+}
+#header .header-bkg-image-wrapper img{
+    opacity: 0.05;
+}
+
 #header .header-figure::after {
     position: absolute;
     bottom: -37px;
@@ -418,7 +425,7 @@ body .header-slider-slide{
     top: 35%;
     left: 50%;
     transform: translateX(-50%);
-    width: 660px;
+    width: auto;
     text-align: center;
 }
 
@@ -811,7 +818,7 @@ body .header-slider-slide{
     font-family: "Clear Sans";
     font-size: 16px;
     font-weight: 300;
-    height: 90px;
+    height: 120px;
     overflow: hidden;
 }
 
@@ -857,3 +864,272 @@ body .header-slider-slide{
 .about-company-description-content p {
     background-color: #fff;
 }
+
+
+
+
+/* Mobile Css start*/
+
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+
+
+
+}
+
+@media (max-width: 550px) {
+    .legal-team-content img, .legal-team-content label, .legal-team-content .info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .advisors-team-content .four > img {
+        width: 100%;
+    }
+
+    div#main .benefit-content {
+        height: 120px;
+    }.about-slider-navigation-right,
+    .about-slider-navigation-left {
+        top: 100%;
+        left: 0;
+    }
+    .about-slider-navigation-right {
+        top: 100%;
+        right: 0;
+    }
+
+}
+
+/* Larger than tablet */
+@media (max-width: 750px) {
+
+    .benefit-card .benefit-content {
+        height: 265px;
+    }
+    .legal-assistance-content .six {
+        width: 100%;
+    }
+    .legal-assistance-form-wrapper input[type=text],
+    .legal-assistance-form-wrapper textarea{
+        max-width: none;
+    }
+    .legal-assistance-content p {
+        max-width: none;
+    }
+}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {
+
+        .benefit-content {
+        height: 185px;
+    }
+
+    .legal-team-content p {
+        max-width: none;
+    }
+    #nav{
+        display: none;
+    }
+    .legal-assistance-content .six {
+        width: 100%;
+    }
+    .legal-assistance-form-wrapper input[type=text],
+    .legal-assistance-form-wrapper textarea{
+        max-width: none;
+        width: 100%;
+    }
+    .legal-assistance-wrapper {
+        background-image: url(../images/bkb_legal_it-background.png);
+    }
+
+    .legal-assistance-content p {
+        max-width: none;
+    }
+
+    .legal-assistance-form-wrapper {
+        padding: 40px 0 40px 0;
+    }
+
+    .main_menu_active .main_menu__dark {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav_wrapper::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .menu-button-wrap,
+    .main_menu__dark {
+        display: none;
+    }
+
+    #header .main_menu .main_menu__dark {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        bottom: 0;
+        padding: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s, visibility 0.5s;
+    }
+
+    .menu-button-wrap {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        bottom: 0;
+    }
+    .menu-button {
+        margin: auto;
+        width: 30px;
+        position: relative;
+        z-index: 1200;
+        border: 0;
+        background: #fff;
+        padding: 0;
+        outline: none;
+    }
+
+    .menu-button__line {
+        border: 2px solid #f00;
+        margin: 5px 0;
+    }
+
+
+    .main_menu {
+        text-align: left;
+        float: left;
+        padding: 10px 0;
+    }
+
+    .main_menu ul li {
+        display: inline-block;
+        font-family: "Open Sans";
+        padding: 0 7px;
+        border-right: 1px solid #888888;
+        position: relative;
+    }
+
+    .main_menu ul li.active a {
+        color: #f00;
+    }
+
+    .main_menu ul li.active:before,
+    .main_menu ul li:hover::before {
+        display: block;
+        width: 100%;
+        content: '';
+        border-top: 3px solid #f00;
+        position: absolute;
+        top: -12px;
+        left: 0;
+    }
+
+    .main_menu ul li:first-child {
+        border-left: 1px solid #888888;
+    }
+
+    .main_menu ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-stretch: ultra-condensed;
+    }
+
+    .main_menu_active .menu-main_menu-container {
+        transform: translateX(0);
+        z-index: 2000;
+    }
+
+    .menu-main_menu-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding-top: 100px;
+        background: #fff;
+        display: inline-block;
+        max-width: 80%;
+        z-index: 1100;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+}
+@media (min-width: 1000px){
+    .legal-assistance-form-wrapper textarea{
+        width: 100%;
+    }
+}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+    .menu-button-wrap,
+    .main_menu__dark {
+        display: none;
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 40px;
+        max-width: 1280px;
+        transform: translateX(-50%);
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        color: #fff;
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container li {
+        flex-grow: 1;
+        flex-basis: auto;
+        text-align: center;
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container li a {
+        color: #aeb8c2;
+        font-size: 14px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container li:nth-child(6) {
+        margin-left: 400px;
+    }
+
+    .main_menu .main_menu__dark .menu-main_menu-container li:nth-child(n+6) {
+        flex-grow: 1.6;
+    }
+
+
+}
+
+
+
+/*Mobile Css end*/
+
+

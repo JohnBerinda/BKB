@@ -33,7 +33,7 @@
   </div>
 </div> -->
 
-<?php include('parts/header.php'); ?>
+<?php include('parts/header-common.php'); ?>
 <?php include('parts/bkb_team_jurist_partial.php'); ?>
 <?php include('parts/footer.php'); ?>
 

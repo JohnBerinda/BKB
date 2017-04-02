@@ -1,8 +1,9 @@
+<main id="main">
 <div class="legal-assistance-wrapper">
     <div class="container">
         <div class="legal-assistance-content">
             <div class="row">
-                <div class="one-half column">
+                <div class="six columns">
                     <h3>Юридическая помощь</h3>
                     <p>Юридическая компания «Би Кей Би» была создана в 2010 году
                         для юридического сопровождения и обеспечения законной защиты широкого круга лиц, имеющих
@@ -30,7 +31,7 @@
                 </div>
 
 
-                <div class="one-half column u-pull-right">
+                <div class="six columns u-pull-right">
                     <div class="legal-assistance-form-wrapper ">
                         <h3>Заказать консультацию</h3>
                         <form action="">
@@ -72,3 +73,4 @@
         </div>
     </div>
 </div>
+</main>
